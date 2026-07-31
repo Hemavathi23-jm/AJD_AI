@@ -3,9 +3,10 @@ abstract class Plane{
     abstract void fly();
     abstract void landing();
 }
-class CargoPlane extends Plane{
+class CargoPlane extends Plane{/*it will throw an error if any of the
+                                   abstract methods are not implemented */
     void takeoff(){
-        System.out.println("Cargo Plane is taking off");
+        System.out.println("Cargo Plane is taking off");/* it can also be partially implemented by making the class as abstract */
     }
     void fly(){
         System.out.println("Cargo Plane is flying");
