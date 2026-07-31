@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-abstract class Shape{
+abstract class Shape{//abstract class allows us to create abstract methods and concrete methods
     float area;//variable to store area of shape
     abstract void calculateArea();//abstract method to calculate area of shape
     abstract void acceptInput();//abstract method to accept input from user
