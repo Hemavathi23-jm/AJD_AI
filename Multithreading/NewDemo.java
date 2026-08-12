@@ -63,4 +63,5 @@ class Demo3 extends Thread {
 }
 /* example of multithreading with 3 different functions to be executed in parallel 
 makes use of multithreading , extends Thread class, overrides run() method, starts threads */
-
+/* u can't use run()method with "throws Exception" because start() method doesn't declare any exception.
+remove  */
